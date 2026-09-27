@@ -66,76 +66,12 @@ data-analytics-project/
 
 🔄 Project Workflow
 1. Dataset Loading
-
-    The dataset is loaded into Python using Pandas.
-    
-    import pandas as pd
-    
-    df = pd.read_csv("data/dataset.csv")
-    
-    print(df.head())
-    print(df.shape)
   
 2. Exploratory Data Analysis
   
-    EDA is performed to understand:
-    
-    Dataset dimensions
-    Data types
-    Missing values
-    Duplicate records
-    Numerical statistics
-    Categorical variables
-    Distributions and trends
-    Relationships between variables
-  
-  Example:
-  
-  df.info()
-  df.describe()
-  df.isnull().sum()
-  
 3. Data Cleaning
-
-  The raw dataset is cleaned before analysis.
-  
-  Major steps include:
-  
-  Handling missing values
-  Removing duplicate records
-  Correcting data types
-  Handling inconsistent values
-  Renaming columns where required
-  Removing unnecessary columns
-  Preparing data for SQL and Power BI
+ 
 4. SQL Analysis
-
-  The cleaned data is analyzed using SQL.
-  
-  Example queries:
-  
-  SELECT *
-  FROM customers
-  LIMIT 10;
-  
-  Calculate total records:
-  
-  SELECT COUNT(*) AS total_records
-  FROM customers;
-  
-  Group and aggregate data:
-
-  SELECT category,
-         COUNT(*) AS total_records
-  FROM sales
-  GROUP BY category
-  ORDER BY total_records DESC;
-  
-  SQL analysis can be performed using:
-  
-  PostgreSQL
-  MySQL
-  SQL Server
   
 📊 Power BI Dashboard
 
