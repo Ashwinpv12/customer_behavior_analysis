@@ -67,27 +67,27 @@ data-analytics-project/
 🔄 Project Workflow
 1. Dataset Loading
 
-  The dataset is loaded into Python using Pandas.
-  
-  import pandas as pd
-  
-  df = pd.read_csv("data/dataset.csv")
-  
-  print(df.head())
-  print(df.shape)
+    The dataset is loaded into Python using Pandas.
+    
+    import pandas as pd
+    
+    df = pd.read_csv("data/dataset.csv")
+    
+    print(df.head())
+    print(df.shape)
   
 2. Exploratory Data Analysis
-
-  EDA is performed to understand:
   
-  Dataset dimensions
-  Data types
-  Missing values
-  Duplicate records
-  Numerical statistics
-  Categorical variables
-  Distributions and trends
-  Relationships between variables
+    EDA is performed to understand:
+    
+    Dataset dimensions
+    Data types
+    Missing values
+    Duplicate records
+    Numerical statistics
+    Categorical variables
+    Distributions and trends
+    Relationships between variables
   
   Example:
   
